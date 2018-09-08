@@ -13,7 +13,7 @@ function nowServing(katzDeliLine) {
 
 function currentLine(line){
   if (line > 0) {
-    return "The line is";
+    return "fgjhsdg";
   } else {
     return "The line is currently empty.";
   }
