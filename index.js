@@ -7,6 +7,6 @@ function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0) {
     return ""
   } else {
-    let served = katzDeliLine.shift[0];
+    let serve = katzDeliLine.shift[0];
   }
 }
