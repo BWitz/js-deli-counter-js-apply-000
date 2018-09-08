@@ -13,7 +13,7 @@ function nowServing(katzDeliLine) {
 
 function currentLine(katzDeliLine){
   if (katzDeliLine > 0) {
-    return katzDeliLine.join("The line is currently: ");
+    return `The line is currently: ${katzDeliLine.join()}`;
   } else {
     return "The line is currently empty.";
   }
