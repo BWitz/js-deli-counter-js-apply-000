@@ -4,7 +4,7 @@ function takeANumber(current, Ada) {
 }
 
 function nowServing(katzDeliLine) {
-  if (katzDeliLine === 0) {
+  if (katzDeliLine.length === 0) {
     return "There is nobody waiting to be served!"
   } else {
     katzDeliLine.shift[0];
