@@ -1,4 +1,4 @@
-function takeANumber(current, Jake) {
-  current.push(Jake);
-  return "Welcome," + Jake + "You
+function takeANumber(current, Ada) {
+  current.push(Ada);
+  return "Welcome," + Ada + "You are number " + current.length + "in line.";
 }
