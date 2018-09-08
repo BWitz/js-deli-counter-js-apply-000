@@ -15,6 +15,6 @@ function currentLine(line){
   if (line > 0) {
     return "fgjhsdg";
   } else {
-    return "The line is currently empty.";
+    return "The line is currently .";
   }
 }
